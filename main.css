@@ -88,6 +88,8 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 4%;
+    width: 55%;
+    
     
     
 }
@@ -140,13 +142,15 @@ span{
 figure{
     display: flex; 
     align-items: center;
-    width: 20rem;
+    justify-content: flex-start;
+    
+    
     
 }
 .conteudo-img{
 
    
-    width: 100%;
+    width: 320px;
   
 }
 
