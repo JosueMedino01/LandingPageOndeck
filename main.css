@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Eczar:wght@600;700;800&family=JetBrains+Mono:ital,wght@0,300;0,400;1,300&family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
-
 /* 
     #Fontes: 
     font-family: 'Cutive Mono', monospace;
     font-family: 'Eczar', serif;
     font-family: 'JetBrains Mono', monospace;
     font-family: 'Libre Baskerville', serif;*/
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
 body{
     font-size: 100%;
     background-color: #f3ebe3;
 }
-
  .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -38,7 +33,6 @@ body{
     align-items: center;
    
 }
-
 .cabecalho-navegacao-item{
     text-decoration: none;
     display: inline-block;
@@ -49,11 +43,9 @@ body{
     font-family: 'Open Sans', sans-serif;
  
 }
-
 .cabecalho-login{
    
 }
-
 .cabecalho-login-item{
     display: inline-block;
     padding: 0 20px;
@@ -61,7 +53,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: medium;
 }
-
 .cabecalho-login-botao{
     display: inline-block;
     padding: 15px 25px;
@@ -74,13 +65,12 @@ body{
     border: none;
     border-radius: 2%;
 }
-
 .conteudo{
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 .conteudo-escrito{
@@ -88,26 +78,25 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 4%;
-    width: 55%;
-    
-    
-    
+    margin-left: 5%;
+
+
 }
 
 .conteudo-escrito-titulo{
     font-family: 'Inter', sans-serif;
+    font-size: 57px;
     font-size: 3.5rem;
-   
+
 }
 span{
     color: #efb611;
 }
-
 .conteudo-escrito-descricao{
     font-family: 'Open Sans', sans-serif;
     color: rgb(75, 75, 75);
     margin-top: 3%;
-    
+
 }
 
 .conteudo-escrito-botao{
@@ -123,7 +112,6 @@ span{
     margin-top: 3%;
     
 }
-
 .conteudo-escrito-rodape {
     display: flex;
     flex-direction: row;
@@ -133,25 +121,26 @@ span{
     margin-top: 5%;
     
 }
-
 .conteudo-escrito-rodape  p{
     font-family: 'Open Sans', sans-serif;
     color: rgb(75, 75, 75);
-   
+
 }
 figure{
+    margin-right: 1%;   
     display: flex; 
     align-items: center;
-    justify-content: flex-start;
-    
-    
-    
+    width: 100%;
+
 }
 .conteudo-img{
+    padding: 18%;
+    height: 600px;
+    width: 520px;
 
-   
-    width: 320px;
-  
+
+
+
 }
 
 .rodape{
@@ -159,14 +148,13 @@ figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 8%;
 }
-
 .rodape p{
     padding: 2%;
     font-family: 'Open Sans', sans-serif;
     color: rgb(75, 75, 75);
 }
-
 .rodape ul{
     display: flex;
     flex-direction: row;
@@ -174,6 +162,7 @@ figure{
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    margin-bottom: 15vh;
     margin-bottom: 0;
 
 }
@@ -181,12 +170,10 @@ figure{
 button:hover{
     cursor: pointer;
 }
-
 .menu{
     display: none;
     border: none;
 }
-
 .cabecalho-mobile-navegacao{
     display: flex;
     flex-direction: column;
@@ -197,16 +184,13 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
-
 .item{
     margin: 10px;
 }
-
 .botao-mobile{
     width: 80%;
     
 }
-
 .cabecalho-mobile{
     display: none;
 }
@@ -215,16 +199,14 @@ button:hover{
 @media  (max-width: 730px) {
     .cabecalho-navegacao{
         display: none;
-
     }
-
     .cabecalho-login{
         display: none;
     }
-
     .menu{
         display: block;
     }
+
  
     .open{
         display: block;
@@ -236,7 +218,7 @@ button:hover{
 
     .conteudo{
         height: 52vh;
-        
+
     }
     .conteudo-escrito{
         display: flex;
@@ -245,24 +227,24 @@ button:hover{
         align-items: flex-start;
         margin-left: 1rem;
         margin-top: 1rem;
-        
-        
+
+
     }
     .conteudo-escrito-titulo{
         font-family: 'Inter', sans-serif;
         font-size: 2.0rem;
-       
+
     }
 
-    
+
     .conteudo-escrito-descricao{
         font-family: 'Open Sans', sans-serif;
         color: rgb(75, 75, 75);
         margin-top: 1rem;
         font-size: 0.9rem;
-       
+
     }
-    
+
     .conteudo-escrito-botao{
         width: 180px;
         padding: 15px 25px;   
@@ -274,9 +256,9 @@ button:hover{
         border: none;
         border-radius: 2%;
         margin-top: 5%;
-        
+
     }
-    
+
     .conteudo-escrito-rodape {
         display: flex;
         flex-direction: row;
@@ -284,14 +266,14 @@ button:hover{
         justify-content: flex-start;
         gap: 0px;
         margin-top: 9%;
-        
+
     }
-    
+
     .conteudo-escrito-rodape  p{
         font-family: 'Open Sans', sans-serif;
         color: rgb(75, 75, 75);
         font-size: 0.9rem;
-       
+
     }
 
 
@@ -301,24 +283,25 @@ button:hover{
         display: flex;
         flex-direction: column;
         height: 48vh;
-        
+        margin-bottom: 0;
+
     }
-    
+
     .rodape p{
         padding: 2%;
         font-family: 'Open Sans', sans-serif;
         color: rgb(75, 75, 75);
         font-size: 0.9rem;
     }
-    
+
     .rodape ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
-      
-       
-    
+
+
+
     }
 
     .rodape ul{
@@ -334,4 +317,3 @@ button:hover{
 
     }
 }
-
