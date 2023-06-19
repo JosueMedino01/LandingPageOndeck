@@ -282,11 +282,11 @@ button:hover{
 
 
     .rodape{
-        margin-top: 0.8vh;
+        margin-top: 1.8vh;
         display: flex;
         flex-direction: column;
         height: auto;
-        margin-bottom: 1.5vh;
+        /*margin-bottom: 1.5vh;*/
     }
 
     .rodape p{
@@ -316,7 +316,7 @@ button:hover{
         margin: 15px 0;
     }
     .rodape img{
-        width: 120px;
+        width: 130px;
 
     }
 }
