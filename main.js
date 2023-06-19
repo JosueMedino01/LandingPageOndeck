@@ -1,10 +1,12 @@
 function show(){
     
-    let botao = document.querySelector('.cabecalho-mobile')
-    if(botao.classList.contains('open')){
-        botao.classList.remove('open')
+    let menuShow = document.querySelector('.cabecalho-mobile')
+    if(menuShow.classList.contains('open')){
+        menuShow.classList.remove('open')
+        document.querySelector('.icon').src = 'Assets/Menu.svg'
     } else{
-        botao.classList.add('open')
+        menuShow.classList.add('open')
+        document.querySelector('.icon').src = 'Assets/Close.svg'
     }
 }
 
