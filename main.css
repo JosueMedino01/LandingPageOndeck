@@ -15,6 +15,7 @@
 body{
     font-size: 100%;
     background-color: #f3ebe3;
+    
 }
  .cabecalho{
     display: flex;
@@ -197,6 +198,9 @@ button:hover{
 
 
 @media  (max-width: 730px) {
+    .cabecalho{
+        padding: 5%;
+    }
     .cabecalho-navegacao{
         display: none;
     }
@@ -217,8 +221,7 @@ button:hover{
     }
 
     .conteudo{
-        height: 52vh;
-
+        height: auto;
     }
     .conteudo-escrito{
         display: flex;
@@ -255,7 +258,7 @@ button:hover{
         background-color: rgb(15, 78, 15);
         border: none;
         border-radius: 2%;
-        margin-top: 5%;
+        margin-top: 3vh;
 
     }
 
@@ -265,7 +268,7 @@ button:hover{
         align-items: center;
         justify-content: flex-start;
         gap: 0px;
-        margin-top: 1rem;
+        margin-top: 0.8;
 
     }
 
@@ -279,19 +282,19 @@ button:hover{
 
 
     .rodape{
-        margin-top: 2.8rem;
+        margin-top: 0.8vh;
         display: flex;
         flex-direction: column;
-        height: 48vh;
-        margin-bottom: 0;
-
+        height: auto;
+        margin-bottom: 9%;
     }
 
     .rodape p{
-        padding: 2%;
+        padding: 5%;
         font-family: 'Open Sans', sans-serif;
         color: rgb(75, 75, 75);
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        text-align: center;
     }
 
     .rodape ul{
@@ -313,7 +316,7 @@ button:hover{
         margin: 15px 0;
     }
     .rodape img{
-        width: 140px;
+        width: 120px;
 
     }
 }
