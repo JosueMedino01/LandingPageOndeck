@@ -286,7 +286,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         height: auto;
-        margin-bottom: 9%;
+        margin-bottom: 1.5vh;
     }
 
     .rodape p{
