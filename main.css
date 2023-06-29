@@ -40,9 +40,69 @@ body{
     align-items: center;
     padding: 10px 20px;
     color: rgb(75, 75, 75);
+    position: relative;
     
     font-family: 'Open Sans', sans-serif;
  
+}
+
+.cabecalho-navegacao-item a {
+    color: rgb(75, 75, 75);
+    display: block;
+}
+
+
+
+.dropdown{
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    background-color: #fff;
+    min-height: 250px;
+    min-width: 350px;
+    position: absolute;
+    margin-top: 10px;
+    padding:    20%;
+    border-radius: 5%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.158);
+}
+
+li.cabecalho-descricao{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+
+.cabecalho-descricao section {
+    margin-left: 5%;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+.dropdown h4{
+    font-size: 0.9rem;
+    color: black;
+}
+.dropdown p {
+font-size: 0.8rem;
+}
+.dropdown::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    top: -4px;
+    z-index: -1;
+    
 }
 .cabecalho-login{
    
